@@ -1,0 +1,27 @@
+﻿<Page x:Class="Facebook.Page1"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Facebook"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Page1">
+
+    <Grid Background="White">
+        <StackPanel>
+            <Grid Background="White" Height="451">
+                <Label Margin="10,78,735,339">ID</Label>
+
+                <Button Margin="631,38,10,339" Click="Button_Click_4"  >refresh</Button>
+                <Label Content="Enter The Post=>" Margin="40,25,630,384" ></Label>
+                <TextBox Margin="207,10,211,328" Name="search"></TextBox>
+                <Button Margin="489,142,156,254" Content="Share" Click="Button_Click_5"  ></Button>
+                <Button Margin="307,142,338,254" Content="Update" Click="Button_Click_6" ></Button>
+                <Button Margin="125,142,520,254" Content="Delete" Click="Button_Click_7"  ></Button>
+                <DataGrid Margin="0,225,64,10" HorizontalAlignment="Right" Width="676" Name="dd"></DataGrid>
+                <TextBox Margin="60,78,604,336" Name="ide"></TextBox>
+            </Grid>
+        </StackPanel>
+    </Grid>
+</Page>
